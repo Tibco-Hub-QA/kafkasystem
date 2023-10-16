@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "bwce-order-to-kafka-project-demo"
+  description: "A BWCE order to kafka project setup"
+  links:
+    - title: TIBCO Cloud Home
+      url: https://cloud.tibco.com/
+    - title: Documentation
+      url: https://eu.integration.cloud.tibco.com/docs/index.html
+    - title: TIBCO Cloud Integration
+      url: https://eu.integration.cloud.tibco.com/applications
+  annotations:
+    github.com/project-slug: TIBCO-Hub-Backstage/bwce-order-to-kafka-system-demo
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: bwce-order-to-kafka-system-demo
+spec:
+  type: service
+  lifecycle: development
+  owner: "group:default/acme"

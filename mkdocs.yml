@@ -1,0 +1,8 @@
+site_name: "bwce-order-to-kafka-project-demo"
+site_description: "A BWCE order to kafka project setup"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
